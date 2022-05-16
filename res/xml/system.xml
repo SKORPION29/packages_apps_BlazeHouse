@@ -68,4 +68,10 @@
             android:defaultValue="false" />
    </PreferenceCategory>
 
+     <com.blaze.house.preferences.SystemSettingSwitchPreference
+        android:key="use_wp_zoom"
+        android:title="@string/use_wp_zoom_title"
+        android:summary="@string/use_wp_zoom_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
