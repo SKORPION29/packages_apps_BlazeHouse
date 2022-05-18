@@ -55,6 +55,14 @@
             android:summary="@string/qstile_requires_unlocking_summary"
             android:defaultValue="true" />
 
+
+    <ListPreference
+            android:key="lock_screen_custom_clock_face"
+            android:summary="%s"
+            android:title="@string/lock_screen_custom_clock_face_title"
+            android:entries="@array/lock_screen_custom_clock_face_entries"
+            android:entryValues="@array/lock_screen_custom_clock_face_values" />
+
     <PreferenceCategory
         android:key="lockscreen_media_art_options"
         android:title="@string/lockscreen_media_art_category_title"
